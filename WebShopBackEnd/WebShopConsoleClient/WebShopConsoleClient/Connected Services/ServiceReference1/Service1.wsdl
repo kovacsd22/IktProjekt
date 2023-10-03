@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:3000/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:3000/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:3000/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Server.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_FelhasznaloLista_CS_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloLista_CS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloLista_CS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloLista_CSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloLista_Web_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloLista_Web" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloLista_Web_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloLista_WebResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloHozzaAd_CS_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloHozzaAd_CS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloHozzaAd_CS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloHozzaAd_CSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloHozzaAd_Web_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloHozzaAd_Web" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloHozzaAd_Web_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloHozzaAd_WebResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloModosit_CS_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloModosit_CS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloModosit_CS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloModosit_CSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloModosit_Web_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloModosit_Web" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloModosit_Web_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloModosit_WebResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloTorol_CS_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloTorol_CS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloTorol_CS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloTorol_CSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloTorol_Web_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloTorol_Web" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloTorol_Web_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloTorol_WebResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="FelhasznaloLista_CS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloLista_CS" message="tns:IService1_FelhasznaloLista_CS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloLista_CSResponse" message="tns:IService1_FelhasznaloLista_CS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloLista_Web">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloLista_Web" message="tns:IService1_FelhasznaloLista_Web_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloLista_WebResponse" message="tns:IService1_FelhasznaloLista_Web_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloHozzaAd_CS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloHozzaAd_CS" message="tns:IService1_FelhasznaloHozzaAd_CS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloHozzaAd_CSResponse" message="tns:IService1_FelhasznaloHozzaAd_CS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloHozzaAd_Web">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloHozzaAd_Web" message="tns:IService1_FelhasznaloHozzaAd_Web_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloHozzaAd_WebResponse" message="tns:IService1_FelhasznaloHozzaAd_Web_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloModosit_CS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloModosit_CS" message="tns:IService1_FelhasznaloModosit_CS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloModosit_CSResponse" message="tns:IService1_FelhasznaloModosit_CS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloModosit_Web">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloModosit_Web" message="tns:IService1_FelhasznaloModosit_Web_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloModosit_WebResponse" message="tns:IService1_FelhasznaloModosit_Web_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloTorol_CS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloTorol_CS" message="tns:IService1_FelhasznaloTorol_CS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloTorol_CSResponse" message="tns:IService1_FelhasznaloTorol_CS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloTorol_Web">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloTorol_Web" message="tns:IService1_FelhasznaloTorol_Web_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloTorol_WebResponse" message="tns:IService1_FelhasznaloTorol_Web_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="Service1" />
+</wsdl:definitions>
