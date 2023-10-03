@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopWPF-WCF", "WebShopWPF-WCF\WebShopWPF-WCF.csproj", "{EB34BA92-CB21-4B93-AF38-878E8826370B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB34BA92-CB21-4B93-AF38-878E8826370B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB34BA92-CB21-4B93-AF38-878E8826370B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB34BA92-CB21-4B93-AF38-878E8826370B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB34BA92-CB21-4B93-AF38-878E8826370B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9147E0D7-C175-4F78-B185-B5F9F955BB25}
+	EndGlobalSection
+EndGlobal
