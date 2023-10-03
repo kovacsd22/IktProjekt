@@ -115,3 +115,42 @@ C:\Users\kdániel\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\S
 C:\Users\kdániel\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\kdániel\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\Server.dll
 C:\Users\kdániel\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\Server.pdb
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Server.dll.config
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Server.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Server.pdb
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\BouncyCastle.Crypto.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Google.Protobuf.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\K4os.Compression.LZ4.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\K4os.Hash.xxHash.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\MySql.Data.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Buffers.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.IO.Pipelines.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Memory.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Numerics.Vectors.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\ZstdSharp.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\BouncyCastle.Crypto.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Google.Protobuf.pdb
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Google.Protobuf.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\K4os.Compression.LZ4.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\K4os.Hash.xxHash.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\MySql.Data.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Buffers.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.IO.Pipelines.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Memory.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Numerics.Vectors.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\obj\Debug\Server.dll
+C:\Users\kdániel\Source\Repos\iktprojekt\WebShopBackEnd\Server\obj\Debug\Server.pdb

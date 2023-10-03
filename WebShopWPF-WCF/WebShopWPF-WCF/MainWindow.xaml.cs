@@ -44,18 +44,24 @@ namespace WebShopWPF_WCF
         }
         private void Felhasznalo_kivalaszt(object sender, EventArgs e)
         {
-            Felhasznalo felhasznalo = Felhasznalo_adatok.SelectedItems[0] as Felhasznalo;
+            if (Felhasznalo_adatok.SelectedItems.Count > 0)
+            {
+                Felhasznalo felhasznalo = Felhasznalo_adatok.SelectedItems[0] as Felhasznalo;
 
-            //MessageBox.Show("fdfdfd");
-            //feltölteni a beviteli mezőket a kiválasztott felhasználó adataival
-            Txb_LoginNev.Text = felhasznalo.LoginNev;
-            Txb_HASH.Text = felhasznalo.HASH;
-            Txb_SALT.Text = felhasznalo.SALT;
-            Txb_Nev.Text = felhasznalo.Nev;
-            Txb_Jog.Text = felhasznalo.Jog.ToString();
-            Chb_Aktiv.IsChecked = felhasznalo.Aktiv ? true: false;
-            Txb_Email.Text = felhasznalo.Email;
-            Txb_ProfilKep.Text = felhasznalo.ProfilKep;
+                // Now you can safely access the selected item's properties
+                Txb_LoginNev.Text = felhasznalo.LoginNev;
+                Txb_HASH.Text = felhasznalo.HASH;
+                Txb_SALT.Text = felhasznalo.SALT;
+                Txb_Nev.Text = felhasznalo.Nev;
+                Txb_Jog.Text = felhasznalo.Jog.ToString();
+                Chb_Aktiv.IsChecked = felhasznalo.Aktiv ? true : false;
+                Txb_Email.Text = felhasznalo.Email;
+                Txb_ProfilKep.Text = felhasznalo.ProfilKep;
+            }
+            else
+            {
+                
+            }
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
